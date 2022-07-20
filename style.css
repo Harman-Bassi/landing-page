@@ -146,8 +146,40 @@ ul, .small-text{
     margin-left: 700px;
 }
 
+.fourth{
+    display: flex;
+    padding: 100px 0;
+    justify-content: center;
+    align-items: center;
+}
 
+.call-box{
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap:150px;
+} 
+  
+.call-title{
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+}
 
+.call-text{
+    color: #F9FAF8;
+    
 
+}
 
-
+.call-button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px 20px;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 6px;
+    border-width: 2px;
+}
