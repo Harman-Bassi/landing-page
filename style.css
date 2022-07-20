@@ -2,12 +2,11 @@ body{
     margin: 0;
     max-width: 1440px;
     min-height: 1912px;
-}
-.page{
     display: flex;
     flex-direction: column;
     flex: 1;
 }
+
 
 .first{
     background-color: #1F2937;
@@ -91,6 +90,40 @@ ul, .small-text{
 }
 
 
+.second{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0 100px 0;
+}
+
+.second-title{
+   font-size: 36px; 
+   font-weight: bolder;
+   color: #1F2937;
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.info-cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.box{
+    margin-bottom: 20px;
+    padding:80px 75px;
+    border: solid;
+    border-width: 5px;
+    border-radius: 8px;
+    border-color: #3882F6;
+}
+
+.card{
+    max-width: 175px;
+    max-height: 225px;
+    text-align: center;
+}
 
 
 
